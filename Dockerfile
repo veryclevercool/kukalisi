@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- madaha.zip https://github.com/kelejise/bmw/raw/main/madaha.zip && \
+    wget -qO madaha.zip https://github.com/kelejise/bmw/raw/main/madaha.zip && \
     busybox unzip madaha.zip && \
     chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
