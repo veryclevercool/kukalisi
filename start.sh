@@ -3,10 +3,10 @@
 # configs
 AUUID=feba2063-6727-4f59-8014-8f69519a865c
 CADDYIndexPage=https://github.com/kelejise/gun/blob/main/3D.zip
-CONFIGCADDY=https://raw.githubusercontent.com/veryclevercool/kukalisi/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/veryclevercool/kukalisi/etc/xray.json
+CONFIGCADDY=https://raw.githubusercontent.com/kelejise/ao/master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/kelejise/ao/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/veryclevercool/kukalisi/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/kelejise/ao/master/etc/xray.json
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
