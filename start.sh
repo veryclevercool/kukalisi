@@ -2,7 +2,7 @@
 
 # configs
 AUUID=feba2063-6727-4f59-8014-8f69519a865c
-CADDYIndexPage=https://github.com/AYJCSGM/mikutap/archive/master.zip
+CADDYIndexPage=https://github.com/kelejise/gun/blob/main/3D.zip
 CONFIGCADDY=https://raw.githubusercontent.com/veryclevercool/kukalisi/etc/Caddyfile
 CONFIGXRAY=https://raw.githubusercontent.com/veryclevercool/kukalisi/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
